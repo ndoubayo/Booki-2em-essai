@@ -1,0 +1,61 @@
+body{
+	font-family:  "Raleway", Georgia, impact, sans-serif;
+}
+#bloc_page{
+	width: 78%;
+	margin: auto;
+	padding: auto;
+}
+a{
+	text-decoration: none;
+	color: $link-color;
+}
+header{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	top: 0;
+	position: sticky;
+	background-color: white;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	width: 230px;
+	justify-content: space-between;
+	gap:2em;
+}
+	
+form{
+	display: flex;
+	max-width: 100%;
+    overflow: auto;
+}
+
+input{
+	border-right: none;
+	border-left: none;
+	border-top: solid 1px $principal-color;
+	border-bottom: 1px solid $principal-color;
+	padding: 0 1.5em;
+	box-sizing: border-box;
+	width: 13em;
+	font-size: 1em;
+	font-weight: bold;
+}
+label{
+	background-color: $icone-color;
+	border-radius: 0 1em 1em 0;
+	padding: 0.5em;
+	color: white;
+	font-size: 1em;
+}
+
+footer{
+	background-color: #e5e9e8;
+}
+
+	
+
+
